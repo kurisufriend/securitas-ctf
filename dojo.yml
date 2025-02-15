@@ -14,10 +14,19 @@ type: topic
 modules:
 
 - id: welcome
+- id: data-dealings
+- id: talking-web
+- id: program-misuse
+- id: program-interaction
+- id: sql-playground
 
 - id: web-security
+  visibility:
+    start: "2025-03-01T22:00:00-00:00"
 
 - id: intercepting-communication
+  visibility:
+    start: "2025-03-01T22:00:00-00:00"
   name: Intercepting Communication
   description: Learn various techniques to intercept and manipulate network communication, from connecting to remote hosts to performing man-in-the-middle attacks.
   challenges:
@@ -100,8 +109,12 @@ modules:
       - [Scapy's Documentation](https://scapy.readthedocs.io/en/latest/)
 
 - id: cryptography
+  visibility:
+    start: "2025-03-01T22:00:00-00:00"
 
 - id: access-control
+  visibility:
+    start: "2025-03-01T22:00:00-00:00"
   name: Access Control
   description: Exploit various access control issues for the POSIX/UNIX Discretionary Access Control model and answer questions about Mandatory Access Control models.
   visibility:
@@ -203,7 +216,14 @@ modules:
 
 
 - id: reverse-engineering
+  visibility:
+    start: "2025-03-01T22:00:00-00:00"
 
 - id: binary-exploitation
+  visibility:
+    start: "2025-03-01T22:00:00-00:00"
 
 - id: integrated-security
+  visibility:
+    start: "2025-03-01T22:00:00-00:00"
+
