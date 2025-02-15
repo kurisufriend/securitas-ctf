@@ -1,0 +1,67 @@
+name: Using the Dojo
+challenges:
+
+  - id: vscode
+    name: Using the VSCode Workspace
+    allow_privileged: false
+  - id: desktop
+    name: Using the GUI Desktop
+    allow_privileged: false
+  - id: desktop-paste
+    name: Pasting into the Desktop
+    allow_privileged: false
+  - id: restart
+    name: Restarting Challenges
+    allow_privileged: false
+  - id: sensai
+    name: Getting Help
+    allow_privileged: false
+  - id: challenge
+    name: Challenge Programs
+    allow_privileged: false
+  - id: flag
+    name: The Flag File
+    allow_privileged: false
+  - id: practice
+    name: Using Practice Mode
+  - id: persist-1
+    name: Persistent Home Directories - One
+  - id: persist-2
+    name: Persistent Home Directories - Two
+
+resources:
+  - name: "What is pwn.college?"
+    type: lecture
+    video: hh4XAU6XYP0
+    slides: 14ZJRIyf0HnoYO1N8GI5ygE-ZVgdhjJrvzkETFLz7NIo
+  - name: "What is Cybersecurity?"
+    type: lecture
+    video: hIK1Dfjxq4E
+    slides: 1NjoOj03eQsjnZWhm-A3IsxTVqeWUqFvR4wgfXnhsnu4
+  - name: "Proving Absences of Cybersecurity"
+    type: lecture
+    video: 1H1V1HkVt3k
+    slides: 1_xdrCm136NzcDl9bqSgAEQuigUHkNjkKmamhaej296Q
+  - name: "Proving the (In)Security of Hacking Team"
+    type: lecture
+    video: PxSDB90jlAs
+    slides: 11Xq_KRFYOaTvrLmfUS93vzym7ierbfdJaCwHKcBKuR4
+  - name: "Cybersecurity Ethics"
+    type: lecture
+    video: AO_twkCUTWc
+    slides: 1mxKZE62tS4Sx7kfduon3vhh1VdTwgNQHeo0wSvpELtA
+  - name: "Getting Started"
+    type: lecture
+    video: DJO1A2neZ6Y
+  - name: "Connecting over SSH"
+    type: markdown
+    content: |
+      In order to ssh into your challenge instances, you must link a public ssh key to your account [through your settings](/settings#ssh-key).
+      You can quickly generate an ssh key by running `ssh-keygen -f key -N ''` in a terminal on your (unix-friendly) host machine.
+      This will generate files `key` and `key.pub`, which are your private and public keys respectively.
+      Once you have linked your *public* ssh key to your account, you can connect to the dojo over ssh with `ssh -i key hacker@pwn.college`.
+  - name: "The VM"
+    type: markdown
+    content: |
+      For some of the later (kernel-focused) challenges, you will need to solve the challenge in a virtual machine.
+      You can interact with the virtual machine using the `vm` command.

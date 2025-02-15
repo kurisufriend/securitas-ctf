@@ -1,5 +1,5 @@
-id: intro-to-cybersecurity
-name: Intro to Cybersecurity
+id: securitas
+name: Virginia Tech Securitas LLC CTF
 
 award:
   belt: orange
@@ -7,14 +7,13 @@ award:
 image: pwncollege/challenge-legacy:latest
 
 description: |
-  Can you feel it?
-  The sun is beginning to rise on your journey of cybersecurity.
-  Armed with the fundamentals, you begin to push ever deeper into the realms of knowledge that previously eluded you.
-  Fear not: with perseverance, grit, and gumption, you will lay the groundwork for a towering mastery of security in your future.
+  The Securitas semesterlong CTF, with a wide array of challenges. We suggest you begin with 'Welcome'
 
 type: topic
 
 modules:
+
+- id: welcome
 
 - id: web-security
 
