@@ -7,7 +7,7 @@ award:
 image: pwncollege/challenge-legacy:latest
 
 description: |
-  The Securitas semesterlong CTF, with a wide array of challenges. We suggest you begin with 'Welcome'
+  The Securitas semesterlong CTF, with a wide array of challenges. We suggest you begin with 'Using the Dojo'
 
 type: topic
 
